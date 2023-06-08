@@ -2,6 +2,13 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
+    colors: {
+      'default': ' #302D2C',
+      'black': '#464342',
+      'yellow': '#FFB818',
+      'beige': '#C39322',
+      'white': '#FFFFFF'
+    },
     extend: {},
   },
   plugins: [],
