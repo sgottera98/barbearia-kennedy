@@ -32,3 +32,18 @@ h6 {
     }
     
 }
+
+.bg-image {
+    background-image: url('./assets/barbershop.jpg');
+}
+
+.bg-image-two {
+    background-image: url('./assets/fundo_barbearia.jpg');
+}
+
+.zoom-effect {
+    transition: transform 0.3s ease;
+}
+.zoom-effect:hover {
+    transform: scale(1.1);
+}

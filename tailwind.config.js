@@ -2,6 +2,9 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
+    fill: {
+      current: '#FFB818'
+    },
     colors: {
       'default': ' #302D2C',
       'black': '#464342',
