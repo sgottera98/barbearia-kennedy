@@ -6,8 +6,8 @@ import Professionals from './ui/partials/Professionals';
 function App() {
     return (
         <>
-            <div className="bg-default w-screen min-h-screen text-white">
-                <Hero />
+            <div className="bg-black w-screen min-h-screen text-white">
+                <Hero/>
                 <Services />
                 <Professionals />
             </div>

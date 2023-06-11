@@ -1,8 +1,8 @@
-import Shave from '../../assets/shave.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination";
+import React from 'react';
 
 const Comments = () => {
     return (
