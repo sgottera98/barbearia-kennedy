@@ -48,6 +48,21 @@ h6 {
     background-image: url('./assets/fundo_barbearia.jpg');
 }
 
+.bg-gradient-left {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0));;
+}
+
+.swiper-pagination-bullet {
+    background-color: #FFB818;
+    height: 50px;
+    width: 4px;
+    border-radius: 10%;
+}
+
+.swiper-pagination-bullet.active {
+    background-color: #FFB818 !important;
+}
+
 .zoom-effect {
     transition: transform 0.3s ease;
 }
