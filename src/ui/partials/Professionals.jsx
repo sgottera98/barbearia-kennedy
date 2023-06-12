@@ -19,19 +19,19 @@ const Professionals = () => {
                     >
                         <SwiperSlide className='text-white flex flex items-center justify-center'>
                             <div className='max-w-md mx-4 flex flex-col justify-center items-center text-start'>
-                                <p className='w-full'>Temos os melhores</p>
+                                <p className='w-full text-yellow'>Temos os melhores</p>
                                 <p className='my-4'>Cada membro da nossa equipe é treinado profissionalmente e tem anos de experiência na indústria da barbearia.</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className='text-white flex flex items-center justify-center'>
                             <div className='max-w-md mx-4 flex flex-col justify-center items-center text-start'>
-                                <p className='w-full'>Conhecimento técnico</p>
+                                <p className='w-full text-yellow'>Conhecimento técnico</p>
                                 <p className='my-4'>Nossos profissionais estão sempre aprendendo e acompanhando as últimas tendências em tratamentos masculinos e técnicas modernas de barbear.</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className='text-white flex flex items-center justify-center'>
                             <div className='max-w-md mx-4 flex flex-col justify-center items-center text-start'>
-                                <p className='w-full'>Atendimento personalizado</p>
+                                <p className='w-full text-yellow'>Atendimento personalizado</p>
                                 <p className='my-4'>Trabalhamos para fornecer a cada cliente o melhor atendimento e tratamento possível. Nos preocupamos com a sua satisfação e para isso estamos sempre prontos para ouví-lo e garantir um serviço personalizado.</p>
                             </div>
                         </SwiperSlide>
