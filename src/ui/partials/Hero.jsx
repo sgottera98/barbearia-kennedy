@@ -5,7 +5,7 @@ const Hero = () => {
         <section className="container mx-auto px-2 xl:px-48 pb-4">
             <div className="flex justify-center items-center flex-col-reverse xl:flex-row bg-black xl:bg-default rounded-b-lg">
                 <div className="xl:w-2/3 p-6 xl:py-20 xl:px-16">
-                    <h2>Barbearia Kennedy</h2>
+                    <h1>Barbearia Kennedy</h1>
                     <p>
                         Bem-vindo à Barbearia Kennedy, onde fornecemos o melhor
                         serviço de barbearia para homens da cidade. De cortes de
