@@ -10,7 +10,8 @@ export default {
       'black': '#000000',
       'yellow': '#FFB818',
       'beige': '#C39322',
-      'white': '#FFFFFF'
+      'white': '#FFFFFF',
+      'card' : '#393636' 
     },
     extend: {},
   },

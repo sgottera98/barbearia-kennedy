@@ -587,6 +587,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -607,8 +611,16 @@ video {
   height: 100vh;
 }
 
+.max-h-full {
+  max-height: 100%;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-full {
@@ -639,8 +651,16 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .overflow-hidden {
@@ -651,32 +671,19 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-b-full {
-  border-bottom-right-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-}
-
 .rounded-b-lg {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
 
-.rounded-bl-full {
-  border-bottom-left-radius: 9999px;
-}
-
-.rounded-br-full {
-  border-bottom-right-radius: 9999px;
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(70 67 66 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-default {
+.bg-card {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 45 44 / var(--tw-bg-opacity));
+  background-color: rgb(57 54 54 / var(--tw-bg-opacity));
 }
 
 .bg-yellow {
@@ -684,13 +691,13 @@ video {
   background-color: rgb(255 184 24 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-6 {
@@ -721,6 +728,10 @@ video {
   padding-bottom: 1rem;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -730,9 +741,17 @@ video {
   font-weight: 700;
 }
 
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
 .text-black {
   --tw-text-opacity: 1;
-  color: rgb(70 67 66 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -740,10 +759,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.text-yellow {
+  --tw-text-opacity: 1;
+  color: rgb(255 184 24 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -796,6 +814,22 @@ h6 {
   background-image: url('./assets/fundo_barbearia.jpg');
 }
 
+.bg-gradient-left {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%);
+}
+
+.swiper-pagination-bullet {
+  background-color: #FFB818;
+  height: 50px;
+  width: 4px;
+  border-radius: 10%;
+}
+
+.swiper-pagination-bullet.active {
+  background-color: #FFB818 !important;
+}
+
 .zoom-effect {
   transition: transform 0.3s ease;
 }
@@ -805,8 +839,16 @@ h6 {
 }
 
 @media (min-width: 768px) {
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -817,20 +859,11 @@ h6 {
     padding-left: 4rem;
     padding-right: 4rem;
   }
-
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
 }
 
 @media (min-width: 1280px) {
   .xl\:m-4 {
     margin: 1rem;
-  }
-
-  .xl\:h-full {
-    height: 100%;
   }
 
   .xl\:w-1\/3 {
