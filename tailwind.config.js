@@ -7,10 +7,11 @@ export default {
     },
     colors: {
       'default': ' #302D2C',
-      'black': '#464342',
+      'black': '#000000',
       'yellow': '#FFB818',
       'beige': '#C39322',
-      'white': '#FFFFFF'
+      'white': '#FFFFFF',
+      'card' : '#393636' 
     },
     extend: {},
   },
