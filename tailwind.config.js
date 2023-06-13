@@ -6,8 +6,8 @@ export default {
       current: '#FFB818'
     },
     colors: {
-      'default': ' #302D2C',
-      'black': '#000000',
+      'default': '#1B1D1D',
+      'black': '#302D2C',
       'yellow': '#FFB818',
       'beige': '#C39322',
       'white': '#FFFFFF',
