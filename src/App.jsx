@@ -8,6 +8,7 @@ import OurBarberShop from './ui/partials/OurBarberShop';
 import Services from './ui/partials/services';
 import Professionals from './ui/partials/Professionals';
 import Contact from './ui/partials/Contacts';
+import AboutUs from './ui/partials/AboutUs';
 
 function App() {
     useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
         <div className="bg-black md:bg-default w-screen min-h-screen text-white">
             <Hero />
             <OurBarberShop />
+            <AboutUs />
             <Services />
             <Professionals />
             <Contact />
