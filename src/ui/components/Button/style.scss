@@ -1,40 +1,45 @@
-button {
-    padding: 0.8em 1.8em !important;
-    border: 2px solid #ffb818;
-    position: relative;
-    overflow: hidden;
-    background-color: transparent;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1rem !important;
-    font-weight: 600 !important;
-    transition: 0.3s;
-    z-index: 1;
-    font-family: inherit;
-    color: #ffb818;
-    
-    @media (min-width: 1280px) {
-        font-size: 1.25rem !important;
-    }
+button,
+a {
+    &.custom-button,
+    &.custom-anchor {
+        display: inline-block;
+        padding: 0.8rem 1.8rem !important;
+        border: 2px solid #ffb818;
+        position: relative;
+        overflow: hidden;
+        background-color: transparent;
+        text-align: center;
+        font-size: 1.125rem !important;
+        font-weight: 600 !important;
+        line-height: 2rem !important;
+        transition: 0.3s;
+        z-index: 1;
+        font-family: inherit;
+        color: #FFF;
 
-    &::before {
-        content: '';
-        width: 0;
-        height: 500%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(45deg);
-        background: #ffb818;
-        transition: 0.5s ease;
-        display: block;
-        z-index: -1;
-    }
+        @media (min-width: 1280px) {
+            font-size: 1.5rem !important;
+        }
 
-    &:hover {
-        color: #111;
         &::before {
-            width: 105%;
+            content: '';
+            width: 0;
+            height: 500%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            background: #ffb818;
+            transition: 0.5s ease;
+            display: block;
+            z-index: -1;
+        }
+
+        &:hover {
+            color: #111;
+            &::before {
+                width: 105%;
+            }
         }
     }
 }
