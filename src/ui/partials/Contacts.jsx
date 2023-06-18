@@ -28,7 +28,7 @@ const Contact = () => {
                                 target="_blank"
                                 dataAos="fade-right"
                             >
-                                <span className='flex items-center gap-4'>
+                                <span className="flex items-center gap-4">
                                     Como chegar
                                     <FaMapMarkerAlt />
                                 </span>
@@ -55,9 +55,9 @@ const Contact = () => {
                             </Button>
                         </div>
                     </div>
-
-                    <div className="flex items-center flex-col xl:flex-row w-full gap-8 xl:gap-16">
-                        <div className="flex flex-wrap justify-start items-center gap-6 xl:gap-8 my-4 xl:my-7 w-full xl:w-1/2">
+                    <hr />
+                    <div className="flex items-center flex-col xl:flex-row w-full xl:gap-16">
+                        <div className="flex flex-wrap justify-start items-center gap-6 xl:gap-8 my-7 w-full xl:w-1/2">
                             <a
                                 href="https://api.whatsapp.com/send?phone=5515996856813"
                                 target="_blank"

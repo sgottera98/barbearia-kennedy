@@ -13,7 +13,7 @@ const Professionals = () => {
                         direction={"vertical"}
                         autoplay={{delay: 5000,}}
                         loop={true}
-                        pagination={{ clickable: true, }}
+                        pagination={{ clickable: true }}
                         modules={[Pagination, Autoplay]}
                         className='w-full h-screen'
                     >

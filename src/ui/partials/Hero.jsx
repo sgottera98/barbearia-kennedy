@@ -2,7 +2,7 @@ import BarbershopImage from '../../assets/barbershop.jpg';
 
 const Hero = () => {
     return (
-        <section className="container mx-auto px-2 xl:px-48 pb-4">
+        <section className="container mx-auto px-2 xl:px-48 pb-4 pt-20 xl:pt-28">
             <div className="flex justify-center items-center flex-col-reverse xl:flex-row bg-default rounded-b-lg">
                 <div className="xl:w-2/3 p-6 xl:py-20 xl:px-16" data-aos="fade-right" data-aos-delay="200">
                     <h1>Barbearia Kennedy</h1>
