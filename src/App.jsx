@@ -10,6 +10,7 @@ import Professionals from './ui/partials/Professionals';
 import Contact from './ui/partials/Contacts';
 import AboutUs from './ui/partials/AboutUs';
 import Menu from './ui/partials/Menu';
+import Cta from './ui/partials/Cta';
 
 function App() {
     useEffect(() => {
@@ -28,9 +29,10 @@ function App() {
             <Hero />
             <OurBarberShop />
             <AboutUs />
-            {/* <Services /> */}
             <Professionals />
             <Contact />
+            <Cta />
+            {/* <Services /> */}
         </div>
     );
 }
