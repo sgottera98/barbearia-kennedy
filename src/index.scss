@@ -568,28 +568,12 @@ video {
   left: 0px;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.right-\[100\%\] {
-  right: 100%;
-}
-
-.right-\[-100\%\] {
-  right: -100%;
-}
-
-.left-\[-100\%\] {
-  left: -100%;
-}
-
 .left-\[100\%\] {
   left: 100%;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .top-\[-100\%\] {
@@ -619,16 +603,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -650,14 +624,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-\[28\] {
-  margin-top: 28;
-}
-
-.mt-28 {
-  margin-top: 7rem;
-}
-
 .flex {
   display: flex;
 }
@@ -674,8 +640,8 @@ video {
   height: 50%;
 }
 
-.h-24 {
-  height: 6rem;
+.h-20 {
+  height: 5rem;
 }
 
 .h-52 {
@@ -692,14 +658,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-28 {
-  height: 7rem;
-}
-
-.h-20 {
-  height: 5rem;
 }
 
 .max-h-full {
@@ -742,10 +700,6 @@ video {
   max-width: 24rem;
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -778,6 +732,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -788,14 +746,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-7 {
-  gap: 1.75rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .overflow-hidden {
@@ -876,14 +826,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-4 {
@@ -894,16 +844,12 @@ video {
   padding-bottom: 2rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-start {
@@ -929,12 +875,12 @@ video {
   font-weight: 700;
 }
 
-.leading-snug {
-  line-height: 1.375;
-}
-
 .leading-loose {
   line-height: 2;
+}
+
+.leading-snug {
+  line-height: 1.375;
 }
 
 .text-black {
@@ -968,16 +914,8 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-700 {
-  transition-duration: 700ms;
-}
-
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.ease-in {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .ease-in-out {
@@ -1212,11 +1150,6 @@ h6 {
   .xl\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .xl\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .xl\:py-4 {
