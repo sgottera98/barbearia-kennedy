@@ -112,7 +112,7 @@ const Menu = () => {
                                     <X size={36} />
                                 </button>
                             </div>
-                            <div className="flex flex-col gap-8">
+                            <div className="flex flex-col gap-8 px-6">
                                 <a
                                     href="https://api.whatsapp.com/send?phone=5515996856813"
                                     target="_blank"

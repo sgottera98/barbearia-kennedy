@@ -12,6 +12,7 @@ export default {
       'yellow': '#FFB818',
       'beige': '#C39322',
       'white': '#FFFFFF',
+      'transparent': 'transparent',
       'card' : '#393636',
       'facebook': '#4267B2',
       'instagram': '#E1306C',
