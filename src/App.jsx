@@ -29,12 +29,12 @@ function App() {
             <Menu />
             <Hero />
             <OurBarberShop />
-            {/* <Services /> */}
             <Comments/>
             <AboutUs />
             <Professionals />
             <Contact />
             <Cta />
+            {/* <Services /> */}
         </div>
     );
 }
