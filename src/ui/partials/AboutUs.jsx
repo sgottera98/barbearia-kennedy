@@ -6,7 +6,7 @@ import BarbershopImage from "../../assets/barbershop.jpg";
 const AboutUs = () => {
   return (
     <section className="container mx-auto px-2 xl:px-48 pb-4">
-      <div className="bg-default xl:bg-default rounded-lg p-6 xl:px-16">
+      <div className="bg-neutral-black xl:bg-neutral-black rounded-lg p-6 xl:px-16">
         <h2>Sobre Nós</h2>
         <div className="flex flex-col gap-4 md:flex-row">
           <div className="bg-card h-2/4 rounded-lg" data-aos="zoom-in">

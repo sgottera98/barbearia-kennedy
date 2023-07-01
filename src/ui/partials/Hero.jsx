@@ -2,13 +2,13 @@ import BarbershopImage from '../../assets/barbershop.jpg';
 
 const Hero = () => {
     return (
-        <section className="container mx-auto px-2 xl:px-48 pb-4 pt-20 xl:pt-28">
-            <div className="flex justify-center items-center flex-col-reverse xl:flex-row bg-default rounded-b-lg">
+        <section className="bg-neutral-black container mx-auto px-2 xl:px-48 pb-4 pt-20 xl:pt-28">
+            <div className="flex justify-center items-center flex-col-reverse xl:flex-row rounded-b-lg">
                 <div className="xl:w-2/3 p-6 xl:py-20 xl:px-16" data-aos="fade-right" data-aos-delay="200">
                     <h1>Barbearia Kennedy</h1>
                     <p>
                         Bem-vindo à Barbearia Kennedy, onde fornecemos o melhor
-                        serviço de barbearia para homens da cidade. De cortes de
+                        serviço de barbearia. De cortes de
                         cabelo modernos e estilosos a barbas bem cuidadas, temos
                         tudo para garantir que você saia daqui se sentindo
                         confiante e pronto para enfrentar o mundo.
