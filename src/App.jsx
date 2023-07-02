@@ -25,7 +25,7 @@ function App() {
     }, []);
 
     return (
-        <div className="bg-black md:bg-default w-screen min-h-screen text-white">
+        <div className="bg-neutral-black md:bg-neutral-black w-screen min-h-screen text-white">
             <Menu />
             <Hero />
             <OurBarberShop />
