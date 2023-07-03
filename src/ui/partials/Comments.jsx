@@ -21,25 +21,25 @@ const Comments = () => {
                         modules={[EffectFade, Autoplay, Pagination]}
                         className="swiper-comments h-full w-full"
                     >
-                        <SwiperSlide className="flex flex-col w-full justify-center items-center bg-default rounded-lg p-6 pb-10">
+                        <SwiperSlide className="flex flex-col w-full justify-center items-center bg-neutral-black rounded-lg p-6 pb-10">
                             <Comment>
                                 Ótimo atendimento, lugar limpo e organizado,
                                 funcionários simpáticos e profissionais no que
                                 fazem. Super recomendo 👏👏 …
                             </Comment>
                         </SwiperSlide>
-                        <SwiperSlide className="flex flex-col w-full justify-center items-center bg-default rounded-lg p-6 pb-10">
+                        <SwiperSlide className="flex flex-col w-full justify-center items-center bg-neutral-black rounded-lg p-6 pb-10">
                             <Comment>
                                 Ótimo atendimento excelente super recomendo..
                             </Comment>
                         </SwiperSlide>
-                        <SwiperSlide className="flex flex-col w-full justify-center items-center bg-default rounded-lg p-6 pb-10">
+                        <SwiperSlide className="flex flex-col w-full justify-center items-center bg-neutral-black rounded-lg p-6 pb-10">
                             <Comment>
                                 Atendimento excelente, funcionários muitos
                                 simpáticos, trabalho de extrema qualidade.
                             </Comment>
                         </SwiperSlide>
-                        <SwiperSlide className="flex flex-col w-full justify-center items-center bg-default rounded-lg p-6 pb-10">
+                        <SwiperSlide className="flex flex-col w-full justify-center items-center bg-neutral-black rounded-lg p-6 pb-10">
                             <Comment>
                                 Excelente lugar e atendimento 5 estrelas
                             </Comment>
