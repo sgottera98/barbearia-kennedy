@@ -47,4 +47,5 @@ const OurBarberShop = () => {
     </section>
   );
 };
+
 export default OurBarberShop;

@@ -5,7 +5,6 @@ import 'aos/dist/aos.css';
 
 import Hero from './ui/partials/Hero';
 import OurBarberShop from './ui/partials/OurBarberShop';
-import Services from './ui/partials/Services';
 import Comments from './ui/partials/Comments';
 import Professionals from './ui/partials/Professionals';
 import Contact from './ui/partials/Contacts';
@@ -34,7 +33,6 @@ function App() {
             <Professionals />
             <Contact />
             <Cta />
-            {/* <Services /> */}
         </div>
     );
 }
