@@ -4,7 +4,7 @@ const OurBarberShop = () => {
       <div className="p-6 xl:px-16">
         <h2>Nossa Barbearia</h2>
         <div className="flex flex-col align items-center gap-4 md:grid md:grid-cols-2">
-          <div className="bg-neutral-black p-4 rounded-lg h-full">
+          <div className="bg-card p-4 rounded-lg h-full">
             <p className="text-yellow mb-4 leading-snug	">
               Existimos para atender você
             </p>
@@ -13,16 +13,16 @@ const OurBarberShop = () => {
               cada cliente deixe nossa barbearia se sentindo bem consigo mesmo.
             </p>
           </div>
-          <div className="bg-neutral-black p-4 rounded-lg h-full">
+          <div className="bg-card p-4 rounded-lg h-full">
             <p className="text-yellow mb-4 leading-snug	">
-              Um ambiente descontraído e acolhedor
+              Um ambiente acolhedor e descontraído
             </p>
             <p className="leading-loose">
               Nossa barbearia tem um ambiente acolhedor e descontraído,
               projetado para que você se sinta em casa.
             </p>
           </div>
-          <div className="bg-neutral-black p-4 rounded-lg h-full">
+          <div className="bg-card p-4 rounded-lg h-full">
             <p className="text-yellow mb-4 leading-snug	">
               Expertise em servir bem
             </p>
@@ -32,7 +32,7 @@ const OurBarberShop = () => {
               para garantir que você saia daqui satisfeito.
             </p>
           </div>
-          <div className="bg-neutral-black p-4 rounded-lg h-full">
+          <div className="bg-card p-4 rounded-lg h-full">
             <p className="text-yellow mb-4 leading-snug	">
               Qualidade em primeiro lugar
             </p>
