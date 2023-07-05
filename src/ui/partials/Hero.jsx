@@ -1,4 +1,6 @@
 import BarbershopImage from '../../assets/barbershop.jpg';
+import Barbearia from '../../assets/Barbearia.jpg';
+import Equipe from '../../assets/equipe.jpg';
 
 const Hero = () => {
     return (
@@ -19,7 +21,7 @@ const Hero = () => {
                     className="w-full xl:w-1/3 xl:m-4 overflow-hidden h-[75vh]"
                 >
                     <img
-                        src={BarbershopImage}
+                        src={Equipe}
                         alt=""
                         className="w-full h-full object-cover xl:rounded-lg"
                     />

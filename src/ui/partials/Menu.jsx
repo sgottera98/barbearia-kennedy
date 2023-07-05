@@ -52,8 +52,8 @@ const Menu = () => {
         <header ref={header} className="bg-neutral-black w-screen fixed top-0 z-10 transition-all ease-in-out duration-500">
             <nav className="container p-2 xl:px-48 xl:py-4 mx-auto h-20 xl:h-28">
                 <div className="h-full flex items-center justify-between gap-4 xl:px-16">
-                    <div className="h-full">
-                        <img className="h-full w-auto" src={Logo} alt="" />
+                    <div className="h-full rounded-full">
+                        <img className="h-full w-auto rounded-full" src={Logo} alt="" />
                     </div>
 
                     <div className="hidden md:flex items-center gap-6 xl:gap-8">
