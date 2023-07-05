@@ -15,7 +15,7 @@ const OurBarberShop = () => {
           </div>
           <div className="bg-neutral-black p-4 rounded-lg h-full">
             <p className="text-yellow mb-4 leading-snug	">
-              Um ambiente acolhedor e descontraído
+              Um ambiente descontraído e acolhedor
             </p>
             <p className="leading-loose">
               Nossa barbearia tem um ambiente acolhedor e descontraído,
