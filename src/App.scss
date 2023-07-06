@@ -71,7 +71,11 @@ h6 {
 }
 
 .bg-image {
-    background-image: url('./assets/barbershop.jpg');
+    background-image: url('./assets/Barbearia.jpg');
+    @media(min-width: 1080px) {
+        background-size: contain;
+    }
+    background-size: cover;
 }
 
 .bg-image-two {

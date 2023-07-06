@@ -1,7 +1,8 @@
 import Card from "../components/Card";
 import scissor from "../../assets/tesoura.jpg";
-import utensils from "../../assets/utensilios.jpg";
-import BarbershopImage from "../../assets/barbershop.jpg";
+import ambiente from "../../assets/ambiente.jpg";
+import espera from "../../assets/espera.jpg";
+import FundoBarbearia from '../../assets/mesa.jpg';
 
 const AboutUs = () => {
   return (
@@ -11,7 +12,7 @@ const AboutUs = () => {
         <div className="flex flex-col gap-4 md:flex-row">
           <div className="bg-neutral-black h-2/4 rounded-lg" data-aos="zoom-in">
             <div className="pt-6 flex justify-center">
-              <img className="w-52 h-52" src={scissor} alt="" />
+              <img className="w-52 h-52" src={FundoBarbearia} alt="" />
             </div>
             <Card title={"Tradição em serviços de barbearia"}>
               Com anos de experiência, nossa barbearia se tornou uma das
@@ -21,7 +22,7 @@ const AboutUs = () => {
           </div>
           <div className="bg-neutral-black h-2/4 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
             <div className="pt-6 flex justify-center">
-              <img className="w-52 h-52" src={utensils} alt="" />
+              <img className="w-52 h-52" src={ambiente} alt="" />
             </div>
             <Card title={"Tradição em serviços de barbearia"}>
               Com anos de experiência, nossa barbearia se tornou uma das
@@ -31,7 +32,7 @@ const AboutUs = () => {
           </div>
           <div className="bg-neutral-black h-2/4 rounded-lg" data-aos="zoom-in" data-aos-delay="400">
             <div className="pt-6 flex justify-center">
-              <img className="w-52 h-52" src={BarbershopImage} alt="" />
+              <img className="w-52 h-52" src={espera} alt="" />
             </div>
             <Card title={"Tradição em serviços de barbearia"}>
               Com anos de experiência, nossa barbearia se tornou uma das

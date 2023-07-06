@@ -40,11 +40,14 @@ const Contact = () => {
                                 Horário de Funcionamento
                             </h3>
                             <p className="my-4 xl:mt-7 xl:mb-9">
-                                Segunda à sábado - 09:00 às 19:30{' '}
+                                Segunda-feira - 10:00 às 20:00{' '}
+                            </p>
+                            <p className="my-4 xl:mt-7 xl:mb-9">
+                                Terça à sábado - 09:00 às 19:30{' '}
                             </p>
                             <Button
                                 anchor={true}
-                                href="https://www.trinks.com/barbearia-kennedy-santos"
+                                href="https://api.whatsapp.com/send?phone=5515996856813"
                                 target="_blank"
                                 dataAos="fade-right"
                             >
