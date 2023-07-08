@@ -66,7 +66,7 @@ const Menu = () => {
                             <FaWhatsapp className="text-2xl xl:text-4xl hover:text-whatsapp" />
                         </a>
                         <a
-                            href="https://instagram.com/kennedybarber19"
+                            href="https://instagram.com/barbeariakennedysantos"
                             target="_blank"
                             className="zoom-effect"
                             rel="noreferrer"
@@ -74,7 +74,7 @@ const Menu = () => {
                             <FaInstagram className="text-2xl xl:text-4xl hover:text-instagram" />
                         </a>
                         <a
-                            href="https://www.facebook.com/kennedybarber19"
+                            href="https://www.facebook.com/barbeariakennedysantos"
                             target="_blank"
                             className="zoom-effect"
                             rel="noreferrer"
@@ -129,7 +129,7 @@ const Menu = () => {
                                     rel="noreferrer"
                                 >
                                     <FaCalendar className="text-2xl" />
-                                    Agende um horário
+                                    Entre em contato
                                 </a>
                                 <a
                                     href="https://g.page/kennedybarber19?share"
@@ -145,10 +145,10 @@ const Menu = () => {
                                     className="flex items-center gap-3 text-2xl"
                                 >
                                     <FaPhone className="text-2xl" />
-                                    Contate-nos
+                                    Fale conosco
                                 </a>
                                 <a
-                                    href="https://instagram.com/kennedybarber19"
+                                    href="https://instagram.com/barbeariakennedysantos"
                                     target="_blank"
                                     className="flex items-center gap-3 text-2xl"
                                     rel="noreferrer"
@@ -157,7 +157,7 @@ const Menu = () => {
                                     Instagram
                                 </a>
                                 <a
-                                    href="https://www.facebook.com/kennedybarber19"
+                                    href="https://www.facebook.com/barbeariakennedysantos"
                                     target="_blank"
                                     className="flex items-center gap-3 text-2xl"
                                     rel="noreferrer"

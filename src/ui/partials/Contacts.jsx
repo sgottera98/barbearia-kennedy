@@ -52,7 +52,7 @@ const Contact = () => {
                                 dataAos="fade-right"
                             >
                                 <span className="flex items-center gap-4">
-                                    Agende um horário
+                                    Entre em contato
                                     <FaCalendar />
                                 </span>
                             </Button>
@@ -70,7 +70,7 @@ const Contact = () => {
                                 <FaWhatsapp className="text-4xl xl:text-5xl hover:text-whatsapp" />
                             </a>
                             <a
-                                href="https://instagram.com/kennedybarber19"
+                                href="https://instagram.com/barbeariakennedysantos"
                                 target="_blank"
                                 className="zoom-effect"
                                 rel="noreferrer"

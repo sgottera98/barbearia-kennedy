@@ -47,7 +47,7 @@ const Cta = () => {
                 </div>
                 <div className="bg-neutral-black rounded-full p-2 h-[64px] w-[64px] md:h-[72px] md:w-[72px] flex items-center justify-center">
                     <a
-                        href="https://instagram.com/kennedybarber19"
+                        href="https://instagram.com/barbeariakennedysantos"
                         target="_blank"
                         className="zoom-effect"
                         rel="noreferrer"

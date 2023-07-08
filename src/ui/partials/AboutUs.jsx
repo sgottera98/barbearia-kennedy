@@ -14,30 +14,24 @@ const AboutUs = () => {
             <div className="pt-6 flex justify-center">
               <img className="w-52 h-52" src={FundoBarbearia} alt="" />
             </div>
-            <Card title={"Tradição em serviços de barbearia"}>
-              Com anos de experiência, nossa barbearia se tornou uma das
-              melhores de São Paulo. Nossos clientes são nossa prioridade e o
-              foco do nosso trabalho diário.
+            <Card title={"A MISSÃO DA BARBEARIA KENNEDY"}>
+              A missão da Barbearia Kennedy Santos é oferecer serviços premium, um time obstinado em resultados e atender com alegria cada cliente.
             </Card>
           </div>
           <div className="bg-neutral-black h-2/4 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
             <div className="pt-6 flex justify-center">
               <img className="w-52 h-52" src={ambiente} alt="" />
             </div>
-            <Card title={"Tradição em serviços de barbearia"}>
-              Com anos de experiência, nossa barbearia se tornou uma das
-              melhores de São Paulo. Nossos clientes são nossa prioridade e o
-              foco do nosso trabalho diário.
+            <Card title={"A VISÃO DA BARBEARIA KENNEDY"}>
+              A visão da Barbearia Kennedy Santos é ser a barbearia referência/lider no mercado nacional, inspirar a quem trabalha e a quem usufrui da nossa marca
             </Card>
           </div>
           <div className="bg-neutral-black h-2/4 rounded-lg" data-aos="zoom-in" data-aos-delay="400">
             <div className="pt-6 flex justify-center">
               <img className="w-52 h-52" src={espera} alt="" />
             </div>
-            <Card title={"Tradição em serviços de barbearia"}>
-              Com anos de experiência, nossa barbearia se tornou uma das
-              melhores de São Paulo. Nossos clientes são nossa prioridade e o
-              foco do nosso trabalho diário.
+            <Card title={"OS VALORES DA BARBEARIA KENNEDY"}>
+              Os valores da Barbearia Kennedy Santos são honestidade, respeito, simpatia e dedicaçaõ.
             </Card>
           </div>
         </div>
